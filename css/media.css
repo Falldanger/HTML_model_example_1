@@ -1,0 +1,172 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.skills {
+	    padding: 40px 26px 55px 0px;
+	}
+
+	footer p {
+    margin-top: 44px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+		header {
+	 		padding: 0 5px;
+	 		height: 60px;
+		}
+
+		.menu li {
+		    padding: 0;
+		}
+	
+		nav{
+			height: 60px;
+			line-height: 60px;
+			background-color: #fff;
+		}
+
+		.menu_btn{
+			width: 40px;
+			height: 40px;
+			background-color: #d45e5e;
+			color: #fff; 
+		}
+		.menu_btn span{
+			top: -15px;
+		}
+		#top_menu{
+		    background-color: #ececec;
+		    padding: 20px 0;
+		    border-bottom: 1px solid #737373;
+		    transition: 1s;
+		}
+		.menu li{
+			display: block;
+			text-align: center;
+		}
+		.menu li a{
+			display: block;
+		}
+		.menu li a:hover{
+			background-color: #fff;
+			color: #000 !important;
+		}
+
+		.menu li a {
+	    display: block;
+	    line-height: 39px;
+	    border-bottom: 1px solid rgba(255, 255, 255, 0.49);
+	}
+
+	.portfolio_block img {
+		display: block;
+		margin: 0 auto;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	nav{
+		height: 60px;
+		line-height: 60px;
+		background-color: #2a2e48
+	}
+	.top_line{
+		display: none;
+	}
+	
+	.menu_btn{
+		width: 40px;
+		height: 40px;
+		background-color: #D45E5E;
+		color: #fff; 
+	}
+
+
+	.menu_btn span{
+		top: -15px;
+	}
+	#top_menu{
+		background-color: #2a2e48;
+		padding: 20px 0;
+	}
+	.menu li{
+		display: block;
+		text-align: center;
+	}
+	.menu li a{
+		display: block;
+	}
+	.menu li a:hover{
+		background-color: #fff;
+		color: #000;
+	}
+	
+
+	nav {
+        background-color: #ffffff;
+    }
+
+    #top_menu {
+    background-color: #f2f3f5;
+ 	}
+
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	nav{
+		height: 60px;
+		line-height: 60px;
+		background-color: #2a2e48
+	}
+	.top_line{
+		display: none;
+	}
+	.logo{
+		padding-top: 15px;
+	}
+	.menu_btn{
+		width: 40px;
+		height: 40px;
+		border-radius:50%;
+		background-color: #e84545;
+		color: #fff; 
+	}
+
+	.menu_btn span{
+		top: -15px;
+	}
+	#top_menu{
+		background-color: #2a2e48;
+		padding: 20px 0;
+	}
+	.menu li{
+		display: block;
+		text-align: center;
+	}
+	.menu li a{
+		display: block;
+	}
+	.menu li a:hover{background-color: #fff;
+		color: #000;}
+
+	#map {
+		display: none;
+	}
+
+	.mac {
+    width: 100%; }
+
+}
+

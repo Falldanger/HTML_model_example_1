@@ -1,0 +1,238 @@
+body{
+	font-family: PTSansRegular, Arial, sans-serif;
+	font-size: 14px;
+	min-width: 320px;
+}
+
+h2 {
+    font-family: Cambria,sans-serif;
+    font-style: italic;
+    font-size: 24px;
+}
+
+/*BUTTONS*/
+.my_btn{
+	background-color: #e84545;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+.btn_md{
+	padding: 10px 30px;
+}
+.btn_lg{
+	padding: 15px 50px;
+}
+.soc_btn_grey{
+	border: 1px solid #c6cacc;
+	color:#c6cacc;
+	background-color: transparent;
+	width: 36px;
+    height: 36px;
+    font-size: 16px;
+}
+
+.p0 {
+    padding-right: 0px;
+    padding-left: 0px
+}
+
+/*HEADER*/
+header {
+    height: 90px;
+    transition: 1s;
+    background-color: #fff;
+    overflow: hidden;
+}
+nav {
+    height: 90px;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+}
+
+
+.navbar-brand>img {
+	height: 25px;
+}
+
+.menu{
+	list-style-type:none;
+	margin: 0;
+	padding: 0; 
+}
+.menu li{
+	display: inline-block;
+    padding: 51px 14px 5px 14px;
+    font-size: 21px;
+}
+
+
+.menu li.active {
+    background: #D45E5E;
+}
+
+.menu li.active a{ 
+    color: #fff !important;
+}
+
+.menu li a {
+    color: #000;
+    text-transform: uppercase;
+    font-family: BebasBook, sans-serif;
+}
+.menu li a:hover, .menu li a:focus{
+	text-decoration: none;
+    color: #d45e5e;
+    transition: 1s;
+}
+
+nav p {
+    font-family: BebasBold;
+    font-size: 36.5px !important;
+    display: block;
+    color:#000;
+}
+
+nav p span {
+    display: block;
+    font-family: Arial;
+    font-size: 14.5px;
+    padding-top: 2px;
+}
+
+/*Quote_block*/
+.quote_block p {
+    font-size: 23.5px;
+    font-family: 'Times New Roman';
+    font-style: italic;
+}
+
+.quote_block p {
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.quote_block p::before{
+    display: block;
+    content: "";
+    position: absolute;
+    background: url(../img/sprite.png) no-repeat -302px -73px;
+    width: 49px;
+    height: 39px;
+    left: 44%;
+    top: -60px;
+}
+
+.quote_block {
+    margin-top: 40px;
+}
+
+.sub_quote {
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #e2e1e1;
+    margin-top: 15px;
+}
+
+.sub_quote img {
+    display: block;
+    margin: 0 auto;
+}
+
+/*Potfolio*/
+
+.portfolio_block a{
+    display: block;
+    margin-bottom: 30px;
+}
+
+.portfolio_block h2 {
+    font-family: Cambria,sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    margin: 42px 0;
+}
+
+/*Footer*/
+
+footer {
+    background: #D45E5E;
+    color:#fff;
+    margin-top: 100px;
+}
+
+footer img {
+    border: 6px solid #fff;
+    position: absolute;
+    top: -50px;
+    float: left;
+}
+
+.social {
+    float: right;
+    font-size: 47px;
+    margin-top: 10px;
+}
+
+i {
+    color: #fff;
+}
+
+.main-footer h2, .main-footer span {
+    margin-left: 165px;
+}
+
+.social+h2{
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin-top: 25px;
+}
+
+.skills {
+    padding: 46px 26px 26px 26px;
+}
+
+.skills span {
+    float: left;
+    margin: 0px;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.progress {
+    height: 11px;
+    border-radius: 0px;
+    background: #E27878;
+    box-shadow: none;
+    width: 80%;
+    display: block;
+    margin-top: 20px;
+    margin-left: 28px;
+}
+
+.progress-bar {
+    background: #282828;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+}
+
+.skills h2 {
+    font-style: normal;
+}
+
+.sub-footer {
+    background: #282828;
+    text-align: right;
+    height: 40px;
+    padding: 10px 40px;
+    color: #8a8a8a;
+}
